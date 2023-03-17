@@ -1,0 +1,278 @@
+@charset "utf-8";
+body {
+	width:100%;
+	margin:auto;
+	font:100%/1.4 Verdana; 
+	background:#d9d9d9;
+}
+#container {
+	
+
+	position:relative;
+	margin:auto;
+}
+#myBtn {
+  display: block;
+  position: fixed;
+  top: -2px;
+  left: 10px;
+  z-index: 1;
+  border: none;
+  outline: none;
+	font-size:10px;
+  color: white;
+  cursor: pointer;
+
+  border-radius: 10px;
+}
+@font-face {
+	font-family:Bohemian typewriter;
+	src:url("Bohemian Typewriter.ttf");
+}
+#myBtn:hover {
+  background-color: #555;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	
+	font-family:Bohemian typewriter;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+	
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+ font-size:20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+.sidenav a:hover, .offcanvas a:focus{
+ 	color:#669900;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.meniu {
+	width:100%;
+    background-color: #111;
+height:20px;
+	position:fixed;
+	z-index:1;
+
+	padding-left:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.meniu1 {
+	position:fixed;
+font-family:Bohemian typewriter;
+}
+.meniu a {transition: 0.3s;
+		  color: #818181;
+	float:right;
+	margin-left:5px;
+	margin-right:5px;
+	text-decoration:none;
+	border-bottom:1px solid;
+	font-family:Bohemian typewriter;
+}
+.meniu span:hover {
+	color:#00802b;
+	
+}
+.meniu a:hover {
+	color:#669900;
+	
+}
+.meniu .a1 {margin-right:60px;}
+.banner {
+	width:100%;
+	background-image:url("Imagini/back.jpg");
+
+	height:500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .back1 {
+        background-attachment: scroll;
+    }
+
+}
+.back1 {
+margin:auto;
+    background-image: url('Imagini/back2.png');
+     width:100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    backgr ound-size: cover;
+	
+    height: 50vh; 
+}
+.text-b 
+{
+	width:40%;
+	height:24%;
+	color:#223300;
+	position:relative;
+	left:55%;
+	top:20%;
+}
+.text-b h1
+{
+	padding-left:190px;
+	position:absolute;
+	top:-40px;
+	right:10px;
+
+		font-family:Bohemian typewriter;
+		font-size:50px;
+}
+
+
+#container p{
+	text-align:justify;
+	margin-left:50px;
+	margin-right:20px;
+	text-indent:50px;
+	
+}
+.h-uri h1{font-family:Bohemian typewriter;
+	text-align:justify;
+	margin-left:50px;
+	margin-right:20px;
+	text-indent:50px;
+		color:#223300;
+}
+.h-uri h2{font-family:Comic Sans MS;
+	text-align:justify;
+	margin-left:50px;
+	margin-right:20px;
+	text-indent:50px;
+		color:#223300;
+		font-size:35px;
+}
+.footer {
+	background:#111;
+	width:100%;
+	margin:auto;
+	height:60px;
+	padding-top:7px;
+}
+.footer a {
+		color:white;
+		margin:auto;
+		font-size:100%;
+		text-decoration:none;
+		transition:0.2s;
+		border-bottom:2px solid;
+}
+.footer a:hover {
+	color:gray;
+	
+}
+.footer h5
+{
+
+	margin:auto;
+	color:white;
+
+	
+		font-size:15px;
+
+
+}
+#Galerie
+{
+	margin:auto;
+	width:95%;
+
+	
+
+}
+.poza {
+	width:200px;
+	margin:1%;
+	height:250px;
+	border:2px solid #737373;
+	background:#e6e6e6;
+	display:inline-table;
+
+	
+}
+.poza img {
+	width:100%;
+	padding-top:20px;
+	height:150px;
+	
+}
+.poza h3 {
+	color:#111;	
+	font-family:Bohemian typewriter;
+}
+.poza h5{
+	font-family:Bohemian typewriter;
+	border:2px solid #111;
+	width:100px;
+	background:#004d00;
+	color:white;
+	margin:auto;
+	margin-bottom:20px;
+}
+.poza:hover {
+	box-shadow:0px 0px 15px #004d00;
+	
+}
+.poza:hover h5
+{
+	background:#267326;
+	color:#111;
+}
+
+.poza-g a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+.poza-g a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.next {
+    background-color: #4CAF50;
+    color: white;
+	float:right;
+	margin-top:200px;
+}
+.previous {
+	float:left;
+	margin-top:200px;
+	margin-left:40px;
+    background-color: #f1f1f1;
+    color: black;
+}
